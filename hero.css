@@ -9,12 +9,14 @@
     border: 2px solid #39ff14;
     box-shadow: 2px 5px 10px #8cdb7e;
 }
+
 .hero-container {
+    z-index: inherit;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 150px;
 
 }
 .hero-container marquee {
