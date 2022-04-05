@@ -1,0 +1,113 @@
+#contact a img{
+    background-color: white;
+}
+#contact a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+#contact .instagram img{
+    height: 26px;
+    margin-bottom: 2px;
+    border-radius: 20px;
+    /* filter: invert(100%); */
+    background-color: white;
+}
+#contact .linkedin img{
+    height: 30px;
+    /* margin-bottom: -4px; */
+    border-radius: 20px;
+    filter: invert(100%);
+    background-color: white;
+}
+#contact .git img{
+    border-radius: 20px;
+    filter: invert(100%);
+    background-color: white;
+}
+#contact .fb img{
+    border-radius: 20px;
+    filter: invert(100%);
+}
+#contact .wsp img{
+    border-radius: 20px;
+    filter: invert(100%);
+}
+#contact .tel img{
+    border-radius: 20px;
+    /* filter: invert(100%); */
+    background-color: white;
+    margin-bottom: 2px;
+}
+#contact .devmail img{
+    height: 28px;
+    border-radius: 20px;
+    /* filter: invert(100%); */
+    background-color: white;
+    margin-bottom: 2px;
+}
+#contact .devtwitter img{
+    /* height: 30px; */
+    border-radius: 20px;
+    /* filter: invert(100%); */
+    background-color: white;
+    margin-bottom: 2px;
+}
+#contact .yt img{
+    height: 28px;
+    border-radius: 20px;
+    /* filter: invert(100%); */
+    background-color: white;
+    margin-bottom: 2px;
+}
+hr{
+    margin-bottom: 50px;
+    opacity: .7;
+}
+#contact{
+        margin-bottom: 30px;
+        color: #39ff14;
+        margin-top: 30px;
+        padding-left: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 80px;  
+}
+#contact a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+#contact img:hover{
+    transform: scale(0.8);
+    transition: 0.2s;
+}
+
+
+
+/* ------------------------------------------- responsive ------------------------------------- */
+@media only screen and (min-width: 768px){
+ #contact .contact-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     float: none;
+ }
+ .contact-container a{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+}
